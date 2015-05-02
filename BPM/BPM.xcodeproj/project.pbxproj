@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A030DCB91AF54CF500933153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030DCB81AF54CF500933153 /* AppDelegate.swift */; };
+		A030DCBB1AF54CF500933153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030DCBA1AF54CF500933153 /* ViewController.swift */; };
+		A030DCBE1AF54CF500933153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A030DCBC1AF54CF500933153 /* Main.storyboard */; };
+		A030DCC01AF54CF500933153 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A030DCBF1AF54CF500933153 /* Images.xcassets */; };
+		A030DCC31AF54CF500933153 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A030DCC11AF54CF500933153 /* LaunchScreen.xib */; };
+		A030DCCF1AF54CF600933153 /* BPMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030DCCE1AF54CF600933153 /* BPMTests.swift */; };
+		A030DCE21AF54D1900933153 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030DCE11AF54D1900933153 /* InterfaceController.swift */; };
+		A030DCE41AF54D1900933153 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030DCE31AF54D1900933153 /* NotificationController.swift */; };
+		A030DCE61AF54D1900933153 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A030DCE51AF54D1900933153 /* Images.xcassets */; };
+		A030DCEA1AF54D1900933153 /* BPM WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A030DCE91AF54D1900933153 /* BPM WatchKit App.app */; };
+		A030DCF21AF54D1900933153 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A030DCF01AF54D1900933153 /* Interface.storyboard */; };
+		A030DCF41AF54D1900933153 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A030DCF31AF54D1900933153 /* Images.xcassets */; };
+		A030DCF71AF54D1900933153 /* BPM WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A030DCDC1AF54D1900933153 /* BPM WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A030DCC91AF54CF600933153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A030DCAB1AF54CF500933153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A030DCB21AF54CF500933153;
+			remoteInfo = BPM;
+		};
+		A030DCEB1AF54D1900933153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A030DCAB1AF54CF500933153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A030DCE81AF54D1900933153;
+			remoteInfo = "BPM WatchKit App";
+		};
+		A030DCF51AF54D1900933153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A030DCAB1AF54CF500933153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A030DCDB1AF54D1900933153;
+			remoteInfo = "BPM WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A030DCFE1AF54D1900933153 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A030DCF71AF54D1900933153 /* BPM WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A030DCB31AF54CF500933153 /* BPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A030DCB71AF54CF500933153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A030DCB81AF54CF500933153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A030DCBA1AF54CF500933153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A030DCBD1AF54CF500933153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A030DCBF1AF54CF500933153 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A030DCC21AF54CF500933153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A030DCC81AF54CF600933153 /* BPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A030DCCD1AF54CF600933153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A030DCCE1AF54CF600933153 /* BPMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMTests.swift; sourceTree = "<group>"; };
+		A030DCDC1AF54D1900933153 /* BPM WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BPM WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A030DCDF1AF54D1900933153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A030DCE01AF54D1900933153 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A030DCE11AF54D1900933153 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A030DCE31AF54D1900933153 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A030DCE51AF54D1900933153 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A030DCE91AF54D1900933153 /* BPM WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BPM WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A030DCEF1AF54D1900933153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A030DCF11AF54D1900933153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A030DCF31AF54D1900933153 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A030DCB01AF54CF500933153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A030DCC51AF54CF600933153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A030DCD91AF54D1900933153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A030DCAA1AF54CF500933153 = {
+			isa = PBXGroup;
+			children = (
+				A030DCB51AF54CF500933153 /* BPM */,
+				A030DCCB1AF54CF600933153 /* BPMTests */,
+				A030DCDD1AF54D1900933153 /* BPM WatchKit Extension */,
+				A030DCED1AF54D1900933153 /* BPM WatchKit App */,
+				A030DCB41AF54CF500933153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A030DCB41AF54CF500933153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A030DCB31AF54CF500933153 /* BPM.app */,
+				A030DCC81AF54CF600933153 /* BPMTests.xctest */,
+				A030DCDC1AF54D1900933153 /* BPM WatchKit Extension.appex */,
+				A030DCE91AF54D1900933153 /* BPM WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A030DCB51AF54CF500933153 /* BPM */ = {
+			isa = PBXGroup;
+			children = (
+				A030DCB81AF54CF500933153 /* AppDelegate.swift */,
+				A030DCBA1AF54CF500933153 /* ViewController.swift */,
+				A030DCBC1AF54CF500933153 /* Main.storyboard */,
+				A030DCBF1AF54CF500933153 /* Images.xcassets */,
+				A030DCC11AF54CF500933153 /* LaunchScreen.xib */,
+				A030DCB61AF54CF500933153 /* Supporting Files */,
+			);
+			path = BPM;
+			sourceTree = "<group>";
+		};
+		A030DCB61AF54CF500933153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A030DCB71AF54CF500933153 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A030DCCB1AF54CF600933153 /* BPMTests */ = {
+			isa = PBXGroup;
+			children = (
+				A030DCCE1AF54CF600933153 /* BPMTests.swift */,
+				A030DCCC1AF54CF600933153 /* Supporting Files */,
+			);
+			path = BPMTests;
+			sourceTree = "<group>";
+		};
+		A030DCCC1AF54CF600933153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A030DCCD1AF54CF600933153 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A030DCDD1AF54D1900933153 /* BPM WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A030DCE11AF54D1900933153 /* InterfaceController.swift */,
+				A030DCE31AF54D1900933153 /* NotificationController.swift */,
+				A030DCE51AF54D1900933153 /* Images.xcassets */,
+				A030DCDE1AF54D1900933153 /* Supporting Files */,
+			);
+			path = "BPM WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A030DCDE1AF54D1900933153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A030DCDF1AF54D1900933153 /* Info.plist */,
+				A030DCE01AF54D1900933153 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A030DCED1AF54D1900933153 /* BPM WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A030DCF01AF54D1900933153 /* Interface.storyboard */,
+				A030DCF31AF54D1900933153 /* Images.xcassets */,
+				A030DCEE1AF54D1900933153 /* Supporting Files */,
+			);
+			path = "BPM WatchKit App";
+			sourceTree = "<group>";
+		};
+		A030DCEE1AF54D1900933153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A030DCEF1AF54D1900933153 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A030DCB21AF54CF500933153 /* BPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A030DCD21AF54CF600933153 /* Build configuration list for PBXNativeTarget "BPM" */;
+			buildPhases = (
+				A030DCAF1AF54CF500933153 /* Sources */,
+				A030DCB01AF54CF500933153 /* Frameworks */,
+				A030DCB11AF54CF500933153 /* Resources */,
+				A030DCFE1AF54D1900933153 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A030DCF61AF54D1900933153 /* PBXTargetDependency */,
+			);
+			name = BPM;
+			productName = BPM;
+			productReference = A030DCB31AF54CF500933153 /* BPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A030DCC71AF54CF600933153 /* BPMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A030DCD51AF54CF600933153 /* Build configuration list for PBXNativeTarget "BPMTests" */;
+			buildPhases = (
+				A030DCC41AF54CF600933153 /* Sources */,
+				A030DCC51AF54CF600933153 /* Frameworks */,
+				A030DCC61AF54CF600933153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A030DCCA1AF54CF600933153 /* PBXTargetDependency */,
+			);
+			name = BPMTests;
+			productName = BPMTests;
+			productReference = A030DCC81AF54CF600933153 /* BPMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A030DCDB1AF54D1900933153 /* BPM WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A030DCFB1AF54D1900933153 /* Build configuration list for PBXNativeTarget "BPM WatchKit Extension" */;
+			buildPhases = (
+				A030DCD81AF54D1900933153 /* Sources */,
+				A030DCD91AF54D1900933153 /* Frameworks */,
+				A030DCDA1AF54D1900933153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A030DCEC1AF54D1900933153 /* PBXTargetDependency */,
+			);
+			name = "BPM WatchKit Extension";
+			productName = "BPM WatchKit Extension";
+			productReference = A030DCDC1AF54D1900933153 /* BPM WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A030DCE81AF54D1900933153 /* BPM WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A030DCF81AF54D1900933153 /* Build configuration list for PBXNativeTarget "BPM WatchKit App" */;
+			buildPhases = (
+				A030DCE71AF54D1900933153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BPM WatchKit App";
+			productName = "BPM WatchKit App";
+			productReference = A030DCE91AF54D1900933153 /* BPM WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A030DCAB1AF54CF500933153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = KappS;
+				TargetAttributes = {
+					A030DCB21AF54CF500933153 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A030DCC71AF54CF600933153 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A030DCB21AF54CF500933153;
+					};
+					A030DCDB1AF54D1900933153 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A030DCE81AF54D1900933153 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A030DCAE1AF54CF500933153 /* Build configuration list for PBXProject "BPM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A030DCAA1AF54CF500933153;
+			productRefGroup = A030DCB41AF54CF500933153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A030DCB21AF54CF500933153 /* BPM */,
+				A030DCC71AF54CF600933153 /* BPMTests */,
+				A030DCDB1AF54D1900933153 /* BPM WatchKit Extension */,
+				A030DCE81AF54D1900933153 /* BPM WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A030DCB11AF54CF500933153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A030DCBE1AF54CF500933153 /* Main.storyboard in Resources */,
+				A030DCC31AF54CF500933153 /* LaunchScreen.xib in Resources */,
+				A030DCC01AF54CF500933153 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A030DCC61AF54CF600933153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A030DCDA1AF54D1900933153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A030DCEA1AF54D1900933153 /* BPM WatchKit App.app in Resources */,
+				A030DCE61AF54D1900933153 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A030DCE71AF54D1900933153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A030DCF21AF54D1900933153 /* Interface.storyboard in Resources */,
+				A030DCF41AF54D1900933153 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A030DCAF1AF54CF500933153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A030DCBB1AF54CF500933153 /* ViewController.swift in Sources */,
+				A030DCB91AF54CF500933153 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A030DCC41AF54CF600933153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A030DCCF1AF54CF600933153 /* BPMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A030DCD81AF54D1900933153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A030DCE41AF54D1900933153 /* NotificationController.swift in Sources */,
+				A030DCE21AF54D1900933153 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A030DCCA1AF54CF600933153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A030DCB21AF54CF500933153 /* BPM */;
+			targetProxy = A030DCC91AF54CF600933153 /* PBXContainerItemProxy */;
+		};
+		A030DCEC1AF54D1900933153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A030DCE81AF54D1900933153 /* BPM WatchKit App */;
+			targetProxy = A030DCEB1AF54D1900933153 /* PBXContainerItemProxy */;
+		};
+		A030DCF61AF54D1900933153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A030DCDB1AF54D1900933153 /* BPM WatchKit Extension */;
+			targetProxy = A030DCF51AF54D1900933153 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A030DCBC1AF54CF500933153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A030DCBD1AF54CF500933153 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A030DCC11AF54CF500933153 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A030DCC21AF54CF500933153 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A030DCF01AF54D1900933153 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A030DCF11AF54D1900933153 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A030DCD01AF54CF600933153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A030DCD11AF54CF600933153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A030DCD31AF54CF600933153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A030DCD41AF54CF600933153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A030DCD61AF54CF600933153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BPMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BPM.app/BPM";
+			};
+			name = Debug;
+		};
+		A030DCD71AF54CF600933153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BPMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BPM.app/BPM";
+			};
+			name = Release;
+		};
+		A030DCF91AF54D1900933153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = BPM_WatchKit_Extension;
+				INFOPLIST_FILE = "BPM WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A030DCFA1AF54D1900933153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = BPM_WatchKit_Extension;
+				INFOPLIST_FILE = "BPM WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		A030DCFC1AF54D1900933153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BPM WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A030DCFD1AF54D1900933153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BPM WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A030DCAE1AF54CF500933153 /* Build configuration list for PBXProject "BPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A030DCD01AF54CF600933153 /* Debug */,
+				A030DCD11AF54CF600933153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A030DCD21AF54CF600933153 /* Build configuration list for PBXNativeTarget "BPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A030DCD31AF54CF600933153 /* Debug */,
+				A030DCD41AF54CF600933153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A030DCD51AF54CF600933153 /* Build configuration list for PBXNativeTarget "BPMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A030DCD61AF54CF600933153 /* Debug */,
+				A030DCD71AF54CF600933153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A030DCF81AF54D1900933153 /* Build configuration list for PBXNativeTarget "BPM WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A030DCF91AF54D1900933153 /* Debug */,
+				A030DCFA1AF54D1900933153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A030DCFB1AF54D1900933153 /* Build configuration list for PBXNativeTarget "BPM WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A030DCFC1AF54D1900933153 /* Debug */,
+				A030DCFD1AF54D1900933153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A030DCAB1AF54CF500933153 /* Project object */;
+}
